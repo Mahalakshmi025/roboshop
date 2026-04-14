@@ -12,7 +12,7 @@ RUN mvn package
 #
 # Run
 #
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:8-jre-alpine
 
 EXPOSE 8080
 
